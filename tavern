@@ -1,0 +1,57 @@
+using System;
+class gold{
+  static void Main() {
+    string start = "";
+    Console.WriteLine("hello traveler and welcome to Odinn's short text adventure");
+    Console.WriteLine("things to know: options must be tiped as seen, backspace dose work but it dose nou update visuwaly,hit run at the top to restart.");
+    Console.WriteLine("you apere to be in a tavern");
+    Console.WriteLine("on your person you have some (gold) and (silver)");
+    Console.WriteLine("state witch you would wish to use: ");
+    start = Console.ReadLine();
+    if (start == "gold"){
+        Console.WriteLine("Dwarf 1 - Gold?");
+        Console.WriteLine("Dwarf 2 - did he say Gold");
+        Console.WriteLine("Dwarf 1 - felow dwarfs, this man has Gold!");
+        Console.WriteLine("you can ether (give them the gold) or (run) or (buy the dwarfs a drink)");
+        Console.WriteLine("what do you do: ");
+        string goldtimeline = "";
+        goldtimeline = Console.ReadLine();
+        if (goldtimeline == "give them the gold"){
+            Console.WriteLine("you live, hoever you have no more gold (1/5)");
+        }
+        else if (goldtimeline == "run"){
+            Console.WriteLine("in your atempt to run the grupe of 10 dwarfs block the door");
+            Console.WriteLine("Dwarf 2 - mine his ass for all the gold he got");
+            Console.WriteLine("*yeling");
+            Console.WriteLine("you are dead and your gold has been stolen (3/5)");
+        }
+        else if (goldtimeline == "buy the dwarfs a drink"){
+         Console.WriteLine("you all have a great time and made some new friends (4/5)");   
+        }
+        else if (goldtimeline == "silver"){
+            Console.WriteLine("a randome man falls dead nearby as you bring out your silver");
+            Console.WriteLine("Dwarf 2 - mine his ass for all the gold he got");
+            Console.WriteLine("*yeling");
+            Console.WriteLine("you are dead and your gold and silver has been stolen (5/5)");
+        }
+        else{
+            Console.WriteLine("nothing chaneged (invaled inpoot)");
+            Console.WriteLine("Dwarf 2 - mine his ass for all the gold he got");
+            Console.WriteLine("*yeling");
+            Console.WriteLine("you are dead and your gold has been stolen (3.5/5)");
+        }
+    }
+    else if (start == "silver"){
+        Console.WriteLine("you bring out your silver and a random parten drops to the ground dead");
+        Console.WriteLine("they were a wairwolf hiding in human form");
+        Console.WriteLine("you are regarded as a hero and get free drinks for the rest of the nite (2/5)");
+    }
+    else
+    {
+        Console.WriteLine("nothing happend (invaled inpoot)");
+    }
+    
+    
+    
+  }
+}
