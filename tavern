@@ -2,7 +2,7 @@ using System;
 class gold{
   static void Main() {
     string start = "";
-    Console.WriteLine("hello traveler and welcome to Odinn's short text adventure");
+    Console.WriteLine("hello traveler and welcome to Gold a text adventure");
     Console.WriteLine("things to know: options must be tiped as seen, backspace dose work but it dose nou update visuwaly,hit run at the top to restart.");
     Console.WriteLine("you apere to be in a tavern");
     Console.WriteLine("on your person you have some (gold) and (silver)");
